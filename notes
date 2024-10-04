@@ -1,0 +1,21 @@
+git init
+git config --global user.name "Anushka"
+git config --global user.email "anuad1010@gmail.com"
+git remote add origin https://github.com/bliss-paradox/CSE-C.git #linking repo to vs code
+git add . # to send it in the staging area
+git status
+git restore DAY2.html #to move back from the staging area
+git commit -m "this is my version1" #to commit the code
+git branch -M main #adding main branch to repo
+git push -u origin main
+git branch Anushka #adding sub branches in the repo
+git push --set-upstream origin Anushka
+
+HW
+share code in different branches with the team mates.
+
+As participant
+ git clone https://github.com/bliss-paradox/CSE-C.git #to copy code from the GitHub to your system
+cd CSE-C #to change the file in terminal cd=change directory
+
+git push origin Anushka #to push command in repo

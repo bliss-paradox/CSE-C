@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .parent
+        {
+            border:2px solid red;
+            height:800px;
+            display: flex;
+            background-color: rgb(251, 241, 228);
+            flex-direction: row;
+            justify-content:space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+           
+
+        }
+        .box
+        {
+            display: flex;
+            border: 1px rgb(122, 116, 116) solid;
+            height: 700px;
+            width: 400px;
+            align-items: center;
+            background: rgb(249, 249, 249);
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px grey;
+            
+        }
+        #Box-1
+        {
+            /*order: 1;
+            flex-grow: 1;*/
+            flex-direction: column;
+            font-size: larger;
+        }
+        #Box-2
+        {
+            /*order: 1;
+            flex-grow: 2;*/
+            flex-shrink: 4;
+            flex-direction: column;
+            font-size: larger;
+            
+        }
+        #Box-3
+        {
+            /*order: 1;
+            flex-grow: 2;*/
+            flex-shrink: 4;
+            flex-direction: column;
+            font-size: larger;
+            
+        }
+        button
+        {
+            background: green;
+            height: 50px;
+            width: 80px;
+            color: white;
+            font-size: medium;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+         <!--Emmet Abbrevation-->
+        <div class ="box" id= "Box-1">
+            <h1>Basic</h1><br><br><br>
+            <h2>$10/month</h2><br><br>
+            <h2>Feature 1</h2><br><br>
+            <h2>Feature 2</h2><br><br>
+            <button>Sign Up</button>
+
+        </div>
+        <div class ="box" id= "Box-2">
+            <h1>Premium</h1><br><br><br>
+            <h2>$30/month</h2><br><br>
+            <h2>Feature 1</h2><br><br>
+            <h2>Feature 2</h2><br><br>
+            <h2>Feature 3</h2><br><br>
+            <button>Sign Up</button>
+        </div>
+        <div class ="box" id= "Box-3">
+            <h1>Pro</h1><br><br><br>
+            <h2>$50/month</h2><br><br>
+            <h2>Feature 1</h2><br><br>
+            <h2>Feature 2</h2><br><br>
+            <h2>Feature 3</h2><br><br>
+            <h2>Feature 4</h2><br><br>
+            <button>Sign Up</button>
+        </div>
+       
+        
+    </div>
+</body>
+</html>
